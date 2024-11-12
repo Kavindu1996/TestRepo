@@ -1,0 +1,12 @@
+
+describe('Go to the google', ()=>{
+    
+    
+
+    it('Navigate to the url', ()=>{
+        cy.visit("https://www.google.com");
+        cy.get('#APjFqb').click().type("Iphone 16");
+        cy.get('#jZ2SBf > .wM6W7d > span').click();
+    })
+    
+})
