@@ -8,6 +8,8 @@ describe('Go to the google', ()=>{
         cy.get('#APjFqb').click().type("Iphone 16");
         cy.get('#jZ2SBf > .wM6W7d > span').click();
     })
+
+    branchOne
     
 
     branchTwo
